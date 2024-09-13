@@ -64,11 +64,24 @@
 
 // FOR IN LOOP USE only for object
 
-const person = { fname: "Imon", lname: "Sorder", age: "25" };
+// const person = { fname: "Imon", lname: "Sorder", age: "25" };
 
-for (let x in person) {
-  console.log(person[x]);
-}
+// for (let x in person) {
+//   console.log(person[x]);
+// }
+
+// =========================
+//      For of Loop
+// =========================
+
+// Array er jonno othoba itarable object er jnno for of loop use korte hoy..
+// FOR IN loop index number return kore
+// FOR OF loop value return kore..
+
+// let car = ["BMW", "Audi", "Marcedis"];
+// for (let x of car) {
+//   console.log(x);
+// }
 
 // While Loop.....
 
