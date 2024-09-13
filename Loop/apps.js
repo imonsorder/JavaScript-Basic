@@ -83,8 +83,6 @@
 //   console.log(x);
 // }
 
-// While Loop.....
-
 // let users = ["Imon","Rashid","Sobuj","Shohidul","Arian","Rahman"];
 
 // let arrLength = users.length;
@@ -96,7 +94,9 @@
 //     counter++;
 // }
 
+// =========================
 // do while Loop.....
+// =========================
 
 // let users = ["Imon", "Rashid", "Sobuj", "Shohidul", "Arian", "Rahman"];
 
@@ -108,3 +108,27 @@
 //   console.log(users[counter]);
 //   counter++;
 // } while (counter < arrLength);
+
+// =========================
+//  BREAK AND CONTINUE
+// =========================
+
+// BREAK
+// loop e break keyword use korle sekhan theke loop stop hoye jay...
+
+// for (let i = 0; i < 10; i++) {
+//   if (i == 3) {
+//     break;
+//   }
+//   console.log(i);
+// }
+
+// continue
+// loop e continue keyword use korle  condition jeta thake seta bad diye baki gulo caliye jay..
+
+// for (let i = 0; i < 10; i++) {
+//   if (i == 3) {
+//     continue;
+//   }
+//   console.log(i);
+// }
