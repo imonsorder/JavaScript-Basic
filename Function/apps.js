@@ -21,6 +21,12 @@
 // Sub(6,6);
 
 //.....(3) return method....
+
+/**
+ * Functioner value jodi kothao store korte cai se khetre
+ * Return keyword use korte hobe
+ */
+
 // funtioner sathe jodi kichu korte cai tobe ata korte hobe...
 // nice jemon functioner sathe 6 jog korchi
 
@@ -106,3 +112,12 @@
 // }
 
 // console.log(myFunction(10)); // If y is not passed or undefined, then y = 10:
+
+// ========== =========================
+
+// function add(num1, num2) {
+//   return num1 + num2;
+// }
+
+// let result = add(add(5, 5), add(10, 10));
+// console.log(result);
