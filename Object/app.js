@@ -1,11 +1,11 @@
-let person = {
-  name: "Imon Sorder",
-  age: 25,
-  location: "Madaripur",
-  sayHello: function () {
-    console.log("Hello world");
-  },
-};
+// let person = {
+//   name: "Imon Sorder",
+//   age: 25,
+//   location: "Madaripur",
+//   sayHello: function () {
+//     console.log("Hello world");
+//   },
+// };
 
 // Object property access korar way......
 
