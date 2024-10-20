@@ -55,15 +55,21 @@
 //   },
 // };
 // console.log(calculator.divide(100, 5));
+let name = "Robin";
+let per = {
+  name: "Sumon",
+  age: 26,
+  interest: ["JS", "PHP", "Python"],
+  address: {
+    city: "Shariatpur",
+    zip: "8000",
+  },
 
-// let per = {
-//   name: "sumon",
-//   age: 26,
-//   interest: ["JS", "PHP", "Python"],
-//   address: {
-//     city: "Shariatpur",
-//     zip: "8000",
-//   },
-// };
+  sayHello() {
+    console.log("Hello " + this.name);
+  },
+};
+
+per.sayHello();
 
 // console.log(per.address.zip); // object er moddhe object k access korlam....
