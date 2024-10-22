@@ -121,3 +121,21 @@
 
 // let result = add(add(5, 5), add(10, 10));
 // console.log(result);
+
+// ==== Calculator ========
+
+function calculator(num1 = 0, operation = "+", num2 = 0) {
+  switch (operation) {
+    case "+":
+      return num1 + num2;
+    case "-":
+      return num1 - num2;
+    case "*":
+      return num1 * num2;
+    case "/":
+      return num1 / num2;
+  }
+}
+
+let result = calculator(100, "/", 5);
+console.log(result);
