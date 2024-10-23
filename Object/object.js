@@ -51,9 +51,14 @@
 // let person1 = new Person("Imon", 20);
 
 // rest prameter....
-function add(num1, num2, ...nums) {
-  console.log(nums);
+
+function add(...nums) {
+  let result = 0;
+
+  nums.forEach((el) => {
+    result = result + el;
+  });
+  return result;
 }
 
-add(20, 40, 30, 40);
-.
+console.log(add(1, 3, 5, 6, 9, 10, 65, 15));
