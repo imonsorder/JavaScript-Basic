@@ -68,8 +68,33 @@ let per = {
   sayHello() {
     console.log("Hello " + this.name);
   },
+  showInterest() {
+    this.interest.forEach((el) => {
+      console.log(el, this.name);
+    });
+  },
 };
+/**
+ * METHOD -> this -> Same object reffer kore....
+ * function -> this -> window/global object reffer kore....
+ */
 
-per.sayHello();
-
+// per.sayHello();
+// per.showInterest();
 // console.log(per.address.zip); // object er moddhe object k access korlam....
+
+// let str = "Hello world";
+// function replaceWord(str, wordToReplace, newWord) {
+//   let arrFromStr = str.split(" ");
+//   let newArr = [];
+//   arrFromStr.forEach((el) => {
+//     if (el == wordToReplace) {
+//       newArr.push(newWord);
+//     } else {
+//       newArr.push(el);
+//     }
+//   });
+//   return newArr.join(" ");
+// }
+
+// console.log(replaceWord(str, "world", "jupiter"));
