@@ -6,7 +6,8 @@
 // }
 
 // console.log(newNames);
-// // newNames[] e notun akta array kora holo sathe MR diye....
+
+// newNames[] e notun akta array kora holo sathe MR diye....
 
 // let nums = [1, 2, 3, 4, 5, 6];
 // let newNums = [];
