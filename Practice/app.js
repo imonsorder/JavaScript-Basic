@@ -38,23 +38,6 @@
 // let value = user(20);
 // console.log(value);
 
-// =============== string method  ========
-// let m =
-//   "Cow are domestic animal. We eats cow's milk. this cow are beutiful. Cow are red";
-// let x = " Hello this new Bangladesh";
-// let y = "Imon";
-// let z = 5;
-
-// m = m.replaceAll("Cow", "Goat");
-// m = m.replaceAll("cow", "goat");
-// let value = x.replace(/banglAdesh/i, "India"); // string change kora jay.. /bangladesh/i aita dile case insensitive hoye jay..
-// let value = x.repeat(3); kono string k koybar print korbe ta bola jay.. vitore 3 lekha tai 3 bar hobe..
-// let value = num.toString(); // number k string kore...
-// let value = x.trim(); // kono string er suru r ses er white space bad dey..
-// let value = x.concat(" ", y);  // x and y duita string k add kore diche..
-
-// console.log(m);
-
 // array
 
 // const model = ["Livo", "Dream", "Hornet", "Xblade", "Sp125"];
@@ -63,3 +46,9 @@
 //   brandModel.push(model[i] + " Honda");
 // }
 // console.log(brandModel);
+
+// ====number method=====
+// let num = 6.612;
+// let value = num.toFixed(); // dosomiker pore koy ghor hobe ta bujhay.. parametar e 2 dile 2 hobe ...
+// let value = num.toPrecision(3); // dosomiker ager number soho koy ghor hobe ta bujhay...
+// console.log(value);
