@@ -12,6 +12,19 @@
 //==========================
 // The length property provides an easy way to append a new element to an array:
 //==========================
-let arr = ["Honda", "Tvs", "Hero", "Yamaha", "Suzuki"];
-arr[arr.length] = "Runner";
-console.log(arr);
+// let arr = ["Honda", "Tvs", "Hero", "Yamaha", "Suzuki"];
+// arr[arr.length] = "Runner";
+// console.log(arr);
+
+// =============== reduce =================
+/**
+ * reduce er moddhe call back function e 4ta prametter
+ * pass kora hoy.. (acc,el, idx, arr)
+ * accumulator => sob gulo aksathe joro kora
+ */
+let arr = [1, 2, 3];
+let result = arr.reduce(function (acc, el) {
+  return (acc += el);
+}, 0);
+
+console.log(result);
