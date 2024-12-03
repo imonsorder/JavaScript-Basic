@@ -80,3 +80,32 @@ const characters = [
 // console.log(newStr);
 
 // Get the total number of characters by eye color (hint. a map of eye color to count)
+// let eyeColor = characters.reduce(function (acc, el) {
+//   if (acc[el.eye_color]) {
+//     acc[el.eye_color]++;
+//   } else {
+//     acc[el.eye_color] = 1;
+//   }
+//   return acc;
+// }, {});
+
+// console.log(eyeColor);
+
+//================
+/**
+ * reduce only array te kaj kore
+ * nice er string split er maddhome array te convirt kora holo
+ * nice er 1st condition ta space soranor jonno use kora hoiche
+ */
+// let str = "Imon Sorder";
+// let count = str.split("").reduce(function (acc, el) {
+//   if (el != " ") {
+//     if (acc[el]) {
+//       acc[el]++;
+//     } else {
+//       acc[el] = 1;
+//     }
+//   }
+//   return acc;
+// }, {});
+// console.log(count);
