@@ -1,54 +1,30 @@
-// let person = "Imon Sorder";
-// let newPerson = person[1];
-// console.log(newPerson);
+// =================== Object  Constructor Function =================
+/**
+ * constructor function er nam er first letter capital dite hoy
+ * jate bojha jay ata constructor function
+ * In the constructor function, this has no value.
+ * The value of this will become the new object when a new object is created.
+ */
 
-// const numbers = [3, 6, 11, 49, 65, 70];
-
-// numbers.forEach(show);
-// function show(el) {
-//   console.log(el + 6);
+// function Person(first, last, age) {
+//   this.firstName = first;
+//   this.lastName = last;
+//   this.age = age;
+//   this.fullName = function () {
+//     return this.firstName + " " + this.lastName;
+//   };
 // }
 
-// numbers.forEach((el) => {
-//   console.log(el + 6);
-// });
+// const imon = new Person("Imon", "Sorder", 25);
 
-// let bike = {
-//   Brand: "Honda",
-//   Model: "Hornet",
-//   CC: 160,
-//   Color: "Red",
-//   Sold: [50, 65, 20, 35, 27, 16],
-//   brandModel() {
-//     console.log(`The bike name ${this.Brand}\nImon ${this.Model}`);
-//   },
-// };
+// console.log(imon);
 
-// bike.brandModel();
-// bike.showCC();
-// console.log(bike.Brand);
-// bike.brandModel();
+function Bike(brand, model, cc) {
+  this.brand = brand;
+  this.model = model;
+  this.cc = cc;
+}
 
-// function user(el) {
-//   let username = "Imon Sorder";
-//   let that = 20 * el;
-//   console.log(that);
-// }
+const bikeName = new Bike("Honda", "Livo", 110);
 
-// let value = user(20);
-// console.log(value);
-
-// array
-
-// const model = ["Livo", "Dream", "Hornet", "Xblade", "Sp125"];
-// const brandModel = [];
-// for (let i = 0; i < model.length; i++) {
-//   brandModel.push(model[i] + " Honda");
-// }
-// console.log(brandModel);
-
-// ====number method=====
-// let num = 6.612;
-// let value = num.toFixed(); // dosomiker pore koy ghor hobe ta bujhay.. parametar e 2 dile 2 hobe ...
-// let value = num.toPrecision(3); // dosomiker ager number soho koy ghor hobe ta bujhay...
-// console.log(value);
+console.log(bikeName);

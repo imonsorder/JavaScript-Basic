@@ -124,18 +124,18 @@
 
 // ==== Calculator ========
 
-function calculator(num1 = 0, operation = "+", num2 = 0) {
-  switch (operation) {
-    case "+":
-      return num1 + num2;
-    case "-":
-      return num1 - num2;
-    case "*":
-      return num1 * num2;
-    case "/":
-      return num1 / num2;
-  }
-}
+// function calculator(num1 = 0, operation = "+", num2 = 0) {
+//   switch (operation) {
+//     case "+":
+//       return num1 + num2;
+//     case "-":
+//       return num1 - num2;
+//     case "*":
+//       return num1 * num2;
+//     case "/":
+//       return num1 / num2;
+//   }
+// }
 
-let result = calculator(100, "/", 5);
-console.log(result);
+// let result = calculator(100, "/", 5);
+// console.log(result);

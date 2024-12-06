@@ -1,3 +1,6 @@
+=========================== learning flow ==============
+Array method ->
+
 =========================== Some Javascript Resource by Setu ================
 
 udemy: https://www.udemy.com/course/the-complete-javascript-course/?srsltid=AfmBOoqNHNjkAaw5Qtyt3o6AZNkfrHfXfLsjM4zA9a9SQbrrAtGS0FCf&couponCode=LETSLEARNNOW

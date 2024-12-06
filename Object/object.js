@@ -17,24 +17,26 @@
 
 // console.log(person1);
 
-// Constructor Function
+// =================== Object  Constructor Function =================
 /**
- * function er name likht first word capital dibo
- * new -> {}
+ * constructor function er nam er first letter capital dite hoy
+ * jate bojha jay ata constructor function
+ * In the constructor function, this has no value.
+ * The value of this will become the new object when a new object is created.
  */
 
-// function CreatePerson(name, age) {
-//   this.name = name;
+// function Person(first, last, age) {
+//   this.firstName = first;
+//   this.lastName = last;
 //   this.age = age;
-//   this.sayHello = function () {
-//     console.log("Hello");
+//   this.fullName = function () {
+//     return this.firstName + " " + this.lastName;
 //   };
 // }
 
-// let person1 = new CreatePerson("Imon", 25);
-// let person2 = new CreatePerson("Sumon", 22);
+// const imon = new Person("Imon", "Sorder", 25);
 
-// console.log(person1);
+// console.log(imon);
 
 // class based Object
 
