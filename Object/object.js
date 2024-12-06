@@ -56,4 +56,3 @@ function add(num1, num2, ...nums) {
 }
 
 add(20, 40, 30, 40);
-.
