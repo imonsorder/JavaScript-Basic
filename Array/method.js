@@ -12,6 +12,195 @@
 //==========================
 // The length property provides an easy way to append a new element to an array:
 //==========================
-let arr = ["Honda", "Tvs", "Hero", "Yamaha", "Suzuki"];
-arr[arr.length] = "Runner";
-console.log(arr);
+// let arr = ["Honda", "Tvs", "Hero", "Yamaha", "Suzuki"];
+// arr[arr.length] = "Runner";
+// console.log(arr);
+
+// =======================
+// Map,Filter,Every,Some Reduce Sort method
+// =======================
+
+// ===== Map ======
+/**
+ * kono akta arry theke amra jodi notun akta arry korte cai taile map use korte hobe
+ * map use korle array te jei koyta index thakbe notun arry te sei koy index nite hobe noile sei jaygay undefined show korbe..
+ */
+
+// let arr = [1, 3, 4, 6, 7, 8, 23, 21, 56];
+// let newArr = arr.map(function (el) {
+//   return el * 2;
+// });
+
+// console.log(newArr);
+
+// const characters = [
+//   {
+//     name: "Luke Skywalker",
+//     height: "172",
+//     mass: "77",
+//     eye_color: "blue",
+//     gender: "male",
+//   },
+//   {
+//     name: "Darth Vader",
+//     height: "202",
+//     mass: "136",
+//     eye_color: "yellow",
+//     gender: "male",
+//   },
+//   {
+//     name: "Leia Organa",
+//     height: "150",
+//     mass: "49",
+//     eye_color: "brown",
+//     gender: "female",
+//   },
+//   {
+//     name: "Anakin Skywalker",
+//     height: "188",
+//     mass: "84",
+//     eye_color: "blue",
+//     gender: "male",
+//   },
+// ];
+
+// Get an array of all names
+// let allNames = characters.map(function (el) {
+//   return el.name;
+// });
+// console.log(allNames);
+// Get an array of all heights
+// Get an array of objects with just name and height properties
+// let nameHeight = characters.map(function (el) {
+//   return {
+//     name: el.name,
+//     height: el.height,
+//   };
+// });
+
+// console.log(nameHeight);
+
+// Get an array of all first names
+
+// let firstNames = characters.map(function (el) {
+//   return el.name.split(" ")[0];
+// });
+
+// console.log(firstNames);
+
+//======Filter======
+
+// let arr = [1, 3, 4, 6, 7, 8, 23, 21, 56];
+// let newArr = arr.filter(function (el) {
+//   if (el % 2 == 0) {
+//     return el;
+//   }
+// });
+
+// console.log(newArr);
+
+// const characters = [
+//   {
+//     name: "Luke Skywalker",
+//     height: "172",
+//     mass: "77",
+//     eye_color: "blue",
+//     gender: "male",
+//   },
+//   {
+//     name: "Darth Vader",
+//     height: "202",
+//     mass: "136",
+//     eye_color: "yellow",
+//     gender: "male",
+//   },
+//   {
+//     name: "Leia Organa",
+//     height: "150",
+//     mass: "49",
+//     eye_color: "brown",
+//     gender: "female",
+//   },
+//   {
+//     name: "Anakin Skywalker",
+//     height: "188",
+//     mass: "84",
+//     eye_color: "blue",
+//     gender: "male",
+//   },
+// ];
+
+// Get characters with mass greater than 100
+// let greaterThan = characters.filter(function (el) {
+//   return el.mass > 100;
+// });
+
+// console.log(greaterThan);
+// Get characters with height less than 200
+// Get all male characters
+
+// let maleChar = characters.filter(function (el) {
+//   return el.gender == "female";
+// });
+
+// console.log(maleChar);
+
+//============== Every, Some ===========
+/**
+ * every and some true r false check kore
+ */
+
+// const characters = [
+//   {
+//     name: "Luke Skywalker",
+//     height: "172",
+//     mass: "77",
+//     eye_color: "blue",
+//     gender: "male",
+//   },
+//   {
+//     name: "Darth Vader",
+//     height: "202",
+//     mass: "136",
+//     eye_color: "yellow",
+//     gender: "male",
+//   },
+//   {
+//     name: "Leia Organa",
+//     height: "150",
+//     mass: "49",
+//     eye_color: "brown",
+//     gender: "female",
+//   },
+//   {
+//     name: "Anakin Skywalker",
+//     height: "188",
+//     mass: "84",
+//     eye_color: "blue",
+//     gender: "male",
+//   },
+// ];
+// Does every character have blue eyes?
+// let blue = characters.every(function (el) {
+//   return el.eye_color == "blue";
+// });
+// console.log(blue);
+
+//========= sort =======
+/**
+ * sort method pura array ta change kore fele
+ */
+
+// let arr = [3, 54, 34, 2, 553, 35, 93, 333, 53, 95];
+// arr.sort(function (a, b) {
+//   return a - b;
+// }); // ata akta compare function
+
+// negative -> a age bose b pore bose
+// positive -> b age bose a pore bose
+// equal   -> je jekhane ache sekhane thakbe
+// console.log(arr);
+
+//===================== reduce =============
+let arr = [1, 2, 3];
+let result = arr.reduce(function () {});
