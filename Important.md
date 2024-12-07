@@ -1,5 +1,5 @@
 =========================== learning flow ==============
-Array method ->
+Array method -> prototype
 
 =========================== Some Javascript Resource by Setu ================
 
